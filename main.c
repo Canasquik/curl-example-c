@@ -8,7 +8,7 @@ int main(void)
     curl_global_init(CURL_GLOBAL_DEFAULT);
     curl = curl_easy_init();
     if(curl) {
-        curl_easy_setopt(curl, CURLOPT_URL, "https://example.com/");
+        curl_easy_setopt(curl, CURLOPT_URL, "https://example.com/5449000000996");
         res = curl_easy_perform(curl);
         if(res != CURLE_OK)
             fprintf(stderr, "curl_easy_perform() failed: %s\n",
